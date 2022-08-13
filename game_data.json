@@ -1,0 +1,200 @@
+{
+    "map": {
+        "exits": {
+            "type": "string",
+            "enum": ["north", "south", "east", "west"]
+        },
+        "description": {
+            "type": "string"
+        },
+        "items": {
+            "type": "string"
+        },
+        "doors": {
+            "type": "string",
+            "enum": ["north", "south", "east", "west"]
+        }
+    },
+    "item": {
+        "type": "string",
+        "enum": ["key", "potion", "sword", "shield"],
+        "default": "potion"
+    },
+    "items": [
+        {
+            "type": "string",
+            "enum": ["key", "potion", "sword", "shield"],
+            "default": "potion"
+        }
+    ],
+    "description": {
+        "type": "string"
+    },
+    "doors": {
+        "type": "string",
+        "enum": ["north", "south", "east", "west"]
+    },
+    "node": {
+        "type": "string",
+        "enum": ["start", "end", "normal"]
+    },
+    "nodes": [
+        {
+            "type": "string",
+            "enum": ["start", "end", "normal"]
+        }
+    ],
+    "enemy": {
+        "type": "string",
+        "enum": ["goblin", "orc", "troll"]
+    },
+    "enemies": [
+        {
+            "type": "string",
+            "enum": ["goblin", "orc", "troll"]
+        }
+    ],
+    "enemy_count": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 10
+    },
+    "enemy_counts": [
+        {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10
+        }
+    ],
+    "enemy_health": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 100
+    },
+    "enemy_healths": [
+        {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+        }
+    ],
+    "enemy_damage": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 100
+    },
+    "enemy_damages": [
+        {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+        }
+    ],
+    "enemy_armor": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 100
+    },
+    "enemy_armors": [
+        {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+        }
+    ],
+    "enemy_experience": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 100
+    },
+    "enemy_experiences": [
+        {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+        }
+    ],
+    "enemy_loot": {
+        "type": "string",
+        "enum": ["key", "potion", "sword", "shield"]
+    },
+    "enemy_loots": [
+        {
+            "type": "string",
+            "enum": ["key", "potion", "sword", "shield"]
+        }
+    ],
+    "enemy_loot_count": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 10
+    },
+    "enemy_loot_counts": [
+        {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10
+        }
+    ],
+    "enemy_loot_chance": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 100
+    },
+    "enemy_loot_chances": [
+        {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+        }
+    ],
+    "enemy_loot_health": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 100
+    },
+    "enemy_loot_healths": [
+        {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+        }
+    ],
+    "enemy_loot_damage": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 100
+    },
+    "enemy_loot_damages": [
+        {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+        }
+    ],
+    "enemy_loot_armor": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 100
+    },
+    "enemy_loot_armors": [
+        {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+        }
+    ],
+    "enemy_loot_experience": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 100
+    },
+    "enemy_loot_experiences": [
+        {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+        }
+    ]
+
+}
