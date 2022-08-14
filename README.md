@@ -5,4 +5,6 @@ The goal of this project is to generate code using GitHub Copilot, a code genera
 
 ![Martin Brandenburg Elfenreigen](img/Martin_Brandenburg_Elfenreigen_c1906-1909.jpg)
 
+- [Coding Livestream](https://odysee.com/@argosopentech:7/Argos-AI-Adventure-Coding-Livestream:c)
+
 Contributions welcome! (from humans or AIs or any combination of the two)
