@@ -7,4 +7,4 @@ The goal of this project is to generate code using GitHub Copilot, a code genera
 
 - [Coding Livestream](https://odysee.com/@argosopentech:7/Argos-AI-Adventure-Coding-Livestream:c)
 
-Contributions welcome! (from humans or AIs or any combination of the two)
+Contributions welcome! (from Humans, AIs, or any combination of the two)
